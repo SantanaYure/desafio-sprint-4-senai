@@ -1,0 +1,13 @@
+* {
+    outline: 1px solid red;
+}
+
+.container {
+    max-width: 81.25rem;
+    margin: 0 auto;
+}
+
+footer {
+    height: auto;
+    background: #00095B;
+}

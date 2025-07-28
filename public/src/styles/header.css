@@ -17,13 +17,14 @@ header {
 }
 header .container_header {
     display: flex;
-    justify-content: flex-start; 
-    align-items: center;
+   align-items: center;
+    max-width: 75rem;    
+    margin: 0 0;   
 }
 
 
 .logo {
-    padding-right: 24rem;
+    padding-right: 44rem;
 }
     
 .nav-list {

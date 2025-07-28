@@ -1,13 +1,22 @@
-* {
+/* * {
     outline: 1px solid red;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
 }
 
-.container {
-    max-width: 81.25rem;
-    margin: 0 auto;
-}
-
-footer {
+footer, main, header{
     height: auto;
-    background: #00095B;
+}
+
+.container_header,
+.container_main,
+.container_footer {
+  max-width: 75rem;    
+  margin: 0 auto;       
+  padding: 0 2rem;      
+  width: 100%;          
+  box-sizing: border-box;
 }

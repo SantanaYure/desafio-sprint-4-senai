@@ -1,0 +1,45 @@
+:root {
+    /* Azuis Principais */
+    --primary-blue-deep: #00095B;
+    --primary-blue-dark: #00142E;
+  
+    /* Azul de Destaque (Accent) */
+    --accent-blue: #303F9F;
+  
+    /* Cores Neutras */
+    --light-background: #F1EEE6;
+    --dark-text: #090F15;
+  }
+
+header {
+    background: #F1EEE6;
+    padding: 1rem 0; 
+}
+header .container_header {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+
+.logo {
+    padding-right: 24rem;
+}
+    
+.nav-list {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li a {
+    color: var(--accent-blue);
+    font-weight: 600;
+}    
+
+.nav-list li a:hover {
+    color: var(--primary-blue-deep);
+}   
+    
+.logo img {
+    height: 3rem;
+}

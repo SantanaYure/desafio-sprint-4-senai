@@ -1,1 +1,29 @@
+:root {
+    /* Azuis Principais */
+    --primary-blue-deep: #00095B;
+    --primary-blue-dark: #00142E;
+  
+    /* Azul de Destaque (Accent) */
+    --accent-blue: #303F9F;
+  
+    /* Cores Neutras */
+    --light-background: #F1EEE6;
+    --dark-text: #090F15;
+  }
+
+main {
+    padding: 1rem 0; 
+    width: 100%;
+    background: var(--light-background);
+}
+
+main .container_main {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+main .banner .caption {
+    text-align: center;
+}
 

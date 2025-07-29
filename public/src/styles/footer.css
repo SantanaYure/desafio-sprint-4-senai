@@ -1,44 +1,45 @@
-:root {
-    /* Azuis Principais */
-    --primary-blue-deep: #00095B;
-    --primary-blue-dark: #00142E;
-  
-    /* Azul de Destaque (Accent) */
-    --accent-blue: #303F9F;
-  
-    /* Cores Neutras */
-    --light-background: #F1EEE6;
-    --dark-text: #090F15;
-  }
-
 footer {
     width: 100%;
     background: var(--primary-blue-deep);
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
+/* Lógica de Centralização e Espaçamento Principal 
+*/
 footer .container_footer {
     display: flex;
-    align-items: center;
-    max-width: 75rem;    
-    margin: 0 0;   
-    gap: 0.225rem;
-    padding: 2rem 0;
-    padding-left: 1rem;
-    justify-content: space-between;
+    justify-content: space-between; /* Empurra os filhos para as extremidades */
+
+    /* Correção 1: Centralização do Container */
+
+    margin: 0 auto;   /* ✨ CORRIGIDO: Centraliza o container na página */
+    
+    /* Consistência no espaçamento lateral */
+    padding: 0 2rem;  /* ✨ AJUSTADO: Consistente com seu general.css */
 }
 
+/* Lógica de Alinhamento dos Ícones 
+*/
 footer .social_media {
     display: flex;
-    justify-content: space-between;
+    align-items: center; /* ✨ Adicionado: Alinha o texto e os ícones verticalmente */
+    gap: 1.5rem;         /* ✨ Adicionado: Cria um espaço consistente entre os itens */
+    /* A propriedade 'justify-content' foi removida daqui pois não era necessária */
 }
 
-footer .container_footer p{
+footer .container_footer p {
     color: var(--light-background); 
     font-weight: 600;
+    font-size: 1.125rem; /* Um pouco maior para destaque */
 }
 
-footer img {
-    width: 2rem;
+footer .social_media img {
+    width: 2rem; /* 32px */
+    height: 2rem;
+}
+
+footer .logo_footer img {
+    height: 3rem; /* 48px - Um tamanho adequado para o rodapé */
+    width: auto;
 }
 

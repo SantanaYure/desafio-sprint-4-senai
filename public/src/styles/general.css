@@ -8,15 +8,14 @@ body {
 }
 
 footer, main, header{
-    height: auto;
+    width: 100%;
 }
 
 .container_header,
-.container_main,
-.container_footer {
+.container_main
+{
   max-width: 75rem;    
-  margin: 0 auto;       
-  padding: 0 2rem;      
+  margin: 0 auto;             
   width: 100%;          
   box-sizing: border-box;
 }

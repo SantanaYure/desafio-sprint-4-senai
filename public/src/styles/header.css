@@ -17,9 +17,10 @@ header {
 }
 header .container_header {
     display: flex;
-   align-items: center;
+    align-items: center;
     max-width: 75rem;    
     margin: 0 0;   
+    padding-left: 1rem;
 }
 
 

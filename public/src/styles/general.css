@@ -5,6 +5,9 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 1rem;
+    display: flex;
+    flex-direction: column; /* Empilha os filhos verticalmente */
+    min-height: 100vh;      /* Ocupa no mínimo 100% da altura da viewport */
 }
 
 footer, main, header{
